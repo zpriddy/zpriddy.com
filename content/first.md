@@ -1,10 +1,12 @@
-Title: My super title
-Date: 2010-12-03 10:20
-Modified: 2010-12-05 19:30
-Category: Python
-Tags: pelican, publishing
-Slug: my-super-post
-Authors: Alexis Metaireau, Conan Doyle
-Summary: Short version for index and feeds
+Title: A-Cube Project
+Date: 2019-11-05 10:20
+Modified: 2019-11-05 19:30
+Category: Projects
+Tags: project, raspberrypi, hologram, neopixel
+Slug: a-cube
+Authors: Zachary Priddy
+Summary: A-Cube, LED Matrix Messaging Cube
 
-# This is the content of my super blog post.
+# A-Cube
+
+## What is A-Cube
