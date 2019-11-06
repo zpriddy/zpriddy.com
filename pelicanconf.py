@@ -6,6 +6,8 @@ AUTHOR = 'Zachary Priddy'
 SITENAME = 'zpriddy.com'
 SITEURL = 'https://zpriddy.github.io/zpriddy.com'
 
+THEME = "./pelican-themes/mnmlist"
+
 PATH = 'content'
 
 TIMEZONE = 'US/Pacific'
