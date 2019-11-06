@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Zachary Priddy'
 SITENAME = 'zpriddy.com'
-SITEURL = 'https://zpriddy.com'
+SITEURL = 'https://www.zpriddy.com'
 
 THEME = "./pelican-themes/Flex"
 
