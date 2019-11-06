@@ -73,6 +73,7 @@ endif
 
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+	echo "zpriddy.com" > docs/CNAME
 
 github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
@@ -80,3 +81,4 @@ github: publish
 
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github
+
