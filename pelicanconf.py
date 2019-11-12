@@ -6,7 +6,7 @@ AUTHOR = 'Zachary Priddy'
 SITENAME = 'zpriddy.com'
 SITEURL = 'https://www.zpriddy.com'
 
-THEME = "./pelican-themes/Flex"
+THEME = "./pure-single"
 
 PATH = 'content'
 
@@ -28,6 +28,13 @@ LINKS = (('Github', 'https://github.com/zpriddy'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+
+MENUITEMS = (
+    ('HOME','https://zpriddy.com/'),
+    ('PROJECTS','https://zpriddy.com/category/projects/'),
+    ('FIREFLY HOME','https://Firefly-Home.io'),
+    ('ABOUT','https://zpriddy.com/pages/about-me'),
+    )
 
 DEFAULT_PAGINATION = 10
 

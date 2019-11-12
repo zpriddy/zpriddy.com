@@ -7,14 +7,21 @@
 
         <link rel="alternate"  href="https://www.zpriddy.com/feeds/all.atom.xml" type="application/atom+xml" title="zpriddy.com Full Atom Feed"/>
 
-        <title>all posts // zpriddy.com // </title>
+        <title>Autonomous RC Car // zpriddy.com // </title>
 
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./theme/css/pure.css">
+    <link rel="stylesheet" href="./theme/css/pygments.css">
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
 </head>
 
 <body>
@@ -43,19 +50,23 @@
                 </div>
             </div>
         </div>
-    <div class="pure-u-1">
+    <div class="pure-u">
         <div class="content">
-            <h1 class="content-subhead">All posts</h1>
-                <div class="archive-item">
-                    <h5 class="archive-date">2019</h5>
-                    <h4 class="archive-date">05 November</h4>
-                    <div class="archive-post"><a href="a-cube.html">A-Cube Project</a></div>
-                </div>
-                <div class="archive-item">
-                    <h5 class="archive-date">2009</h5>
-                    <h4 class="archive-date">16 February</h4>
-                    <div class="archive-post"><a href="autonomous-rc-car.html">Autonomous RC Car</a></div>
-                </div>
+            <section class="post">
+                <header class="post-header">
+                    <h1>Autonomous RC Car</h1>
+                        <p class="post-meta">
+                            // under                                 <a class="post-category" href="./tag/projects.html">Projects</a>
+                                <a class="post-category" href="./tag/blog.html">Blog</a>
+                        </p>
+                </header>
+            </section>
+            <p>In my freshman year at the University of Advancing Technology (UAT) I was given a challenge by my professor to make an Autonomous RC car that could go at full speed but only used one ultrasonic rang finding sensor to avoid hitting objects. Below are some pictures and videos of the idea that I came up with. My professor provided me with the ultrasonic sensor and the two BasicStamp boards I used. One BS was used just for rotating the sensor and finding the range of objects in-front of it and send a signal to the second BS. The second BS was used to control the RC car. I came up with this idea after I realized that if i were to put all the code onto a single BS, it would interfere with the PWM timing for the motor control on the car, and would cause the car to drive too slow.</p>
+<p>After this project I got excited with the idea of OpenCV and computer vision for robotics. At this time I am always working on some sort of Computer Vision project on my free time.</p>
+<h2><a href="http://www.youtube.com/watch?v=Qj_5vWO6BK4">!embed?max_width=300&amp;max_hight=500</a></h2>
+<h2><a href="http://www.youtube.com/watch?v=RZ42EIMx0fY">!embed?max_width=300&amp;max_hight=500</a></h2>
+<p><a href="http://www.youtube.com/watch?v=pZRQXWyI_40">!embed?max_width=300&amp;max_hight=500</a></p>
+            <a href="#" class="go-top">Go Top</a>
 <footer class="footer">
     <p>&copy; Zachary Priddy &ndash;
         Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a>
